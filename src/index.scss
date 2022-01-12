@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #C0E9DB;
+}
+
+section {
+  // width: 50%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Zen Kurenaido', sans-serif;
+  text-align: center;
+}
+
+.App__title--red {
+  color: #DD143C;
+}
+
+.form-container {
+  display: flex;
+  width: 50%;
+  padding: 1.3em;
+  margin-top: 1em;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.form-container__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+}
+
+.form__label {
+  padding: .4em .1em;
+}
+
+.form__input {
+  padding: .4em .5em;
+  margin: .2em .1em;
+  border: .5px solid grey;
+  border-radius: 4px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form__submit-button {
+  padding: 4px 12px;
+  margin-top: .4em;
+  font-weight: lighter;
+  color: white;
+  background-color: #24B07E;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.form__submit-button:hover {
+  color: white;
+  opacity: .8;
+}
+
+.to-do-list-container {
+  width: 50%;
+  padding: 1em 0em;
+  margin: 1em;
+}
+
+.to-do-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.list-item {
+  padding: 1em;
+  margin: .5em .4em;
+  color: white;
+  text-align: left;
+  background-color: #24B07E;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list-item--done {
+  order: 3;
+  padding: 1em;
+  margin: .5em .4em;
+  color: #4A4A4A;
+  text-align: left;
+  text-decoration: line-through;
+  background-color: #FFA07A;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.list-item__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item__delete-button {
+  padding: 4px 12px;
+  margin-top: 1em;
+  font-weight: lighter;
+  color: white;
+  background-color: #DD143C;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.list-item__delete-button:hover {
+  color: white;
+  opacity: .8;
+}
+
+.list-item__update-button {
+  padding: 4px 12px;
+  margin-top: 1em;
+  font-weight: lighter;
+  color: white;
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.list-item__update-button:hover {
+  color: white;
+  opacity: .8;
+}
+
+.list-item__toggle-button {
+  padding: 4px 12px;
+  margin-top: 1em;
+  font-weight: lighter;
+  color: white;
+  background-color: grey;
+  border: 1px solid white;
+  border-radius: 4px;
+  transition: opacity 0.3s ease;
+}
+
+.list-item__toggle-button:hover {
+  color: white;
+  opacity: .8;
+}
+
+.to-do-list--hidden {
+  display: none;
+}
