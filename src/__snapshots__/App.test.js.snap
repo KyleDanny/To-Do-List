@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components: Header Snapshot: renders the header 1`] = `
+<header>
+  <h1>
+     The Over
+    <span
+      className="App__title--red"
+    >
+      REDUX
+    </span>
+    ing List 
+  </h1>
+</header>
+`;
+
+exports[`Header Snapshot: renders the header 1`] = `
+<header>
+  <h1>
+     The Over
+    <span
+      className="App__title--red"
+    >
+      REDUX
+    </span>
+    ing List 
+  </h1>
+</header>
+`;
