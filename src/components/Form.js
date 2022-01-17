@@ -32,7 +32,7 @@ const Form = () => {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit} className="form-container__form">
-        <label className="form__label"> Title: </label>
+        <label className="form__label"> Title </label>
         <input
           type="text"
           name="title"
@@ -42,8 +42,8 @@ const Form = () => {
           className="form__input"
           required
         />
-        <label className="form__label"> Description: </label>
-        <input
+        <label className="form__label"> Description </label>
+        <textarea
           type="text"
           name="description"
           value={newItem.description || ''}

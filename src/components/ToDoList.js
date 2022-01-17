@@ -8,9 +8,9 @@ const ToDoList = () => {
 
   return (
     <div className="to-do-list-container">
-      <button className="list-item__toggle-button" onClick={() => dispatch({ type: 'HIDE_LIST_ITEM' }) } > Hide Completed </button>
-      <div>
-        <button className="list-item__toggle-button" onClick={() => dispatch({ type: 'SHOW_LIST_ITEM' }) } > Show Completed </button>
+      <div className="to-do-list-container_toggle-button__box">
+        <div><button className="list-item__toggle-button" onClick={() => dispatch({ type: 'HIDE_LIST_ITEM' }) } > Hide Completed </button></div>
+        <div><button className="list-item__toggle-button" onClick={() => dispatch({ type: 'SHOW_LIST_ITEM' }) } > Show Completed </button></div>
       </div>
       <div className="to-do-list">
         {state.itemReducer.map(item => <ToDoItem
