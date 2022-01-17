@@ -1,6 +1,8 @@
 const Header = () => (
-  <header>
-    <h1> The Over<span className="App__title--red">REDUX</span>ing List </h1>
+  <header className="header">
+    <div>
+      <h1> To-do List </h1>
+    </div>
   </header>
 );
 
