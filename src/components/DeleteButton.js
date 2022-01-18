@@ -10,7 +10,6 @@ const DeleteButton = ({ toDoItem }) => {
         <button className="list-item__delete-button" type="button" 
           onClick={() => dispatch({ type: 'DELETE_LIST_ITEM', payload: toDoItem }) } > 
           Delete
-        <i className="far fa-trash-alt"></i> 
         </button> : '' }
     </div>
   );

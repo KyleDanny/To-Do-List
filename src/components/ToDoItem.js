@@ -38,7 +38,7 @@ const ToDoItem = ({ toDoItem }) => {
           <div>
             <form onSubmit={(e) => handleUpdating(e)}>
               <div> 
-                <label className="form__label"> Title: 
+                <label className="form__label"> Title: &nbsp;
                 <input name="title" type="text" 
                   defaultValue={toDoItem.title || updateItem.title} 
                   onChange={(e) => handleChange(e)} 
@@ -46,7 +46,7 @@ const ToDoItem = ({ toDoItem }) => {
                 </label>
               </div>
               <div> 
-                <label className="form__label"> Description: 
+                <label className="form__label"> Description: &nbsp;
                 <input name="description" type="text" 
                   defaultValue={toDoItem.description || updateItem.description} 
                   onChange={(e) => handleChange(e)} 

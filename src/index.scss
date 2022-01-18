@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Cochin, Georgia, serif;
+  font-family: 'Indie Flower', cursive;
   text-align: center;
 }
 
@@ -51,7 +51,7 @@ body {
   border: .5px solid grey;
   border-radius: 4px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  font-family: Cochin, Georgia, serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .form__submit-button {
@@ -63,7 +63,7 @@ body {
   border: 1px solid white;
   border-radius: 4px;
   transition: opacity 0.3s ease;
-  font-family: Cochin, Georgia, serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .form__submit-button:hover {
@@ -124,13 +124,13 @@ body {
   border: 1px solid white;
   border-radius: 4px;
   transition: opacity 0.3s ease;
-  font-family: Cochin, Georgia, serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .list-item__delete-button:hover {
   color: white;
   opacity: .8;
-  font-family: Cochin, Georgia, serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .list-item__update-button {
@@ -142,13 +142,13 @@ body {
   border: 1px solid white;
   border-radius: 4px;
   transition: opacity 0.3s ease;
-  font-family: Cochin, Georgia, serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .list-item__update-button:hover {
   color: white;
   opacity: .8;
-  font-family: Cochin, Georgia, serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .list-item__toggle-button {
@@ -160,7 +160,7 @@ body {
   border: 1px solid white;
   border-radius: 4px;
   transition: opacity 0.3s ease;
-  font-family: Cochin, Georgia, serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .list-item__toggle-button:hover {
