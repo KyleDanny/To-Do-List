@@ -11,6 +11,6 @@ Check it out: [To-do List (Redux)](https://to-do-list-kdj.netlify.app)
 * SASS
 
 ### Deployment
-	:rocket: Deployed on Netlify
+:rocket: Deployed on Netlify
 
 ![](to-do-list.gif)
