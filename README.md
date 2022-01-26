@@ -10,4 +10,7 @@ Check it out: [To-do List (Redux)](https://to-do-list-kdj.netlify.app)
 * Redux
 * SASS
 
+### Deployment
+* Deployed on Netlify
+
 ![](to-do-list.gif)
